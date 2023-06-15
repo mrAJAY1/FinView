@@ -4,13 +4,13 @@
 
 ## Front End
 1. MUI
-2. MUI - X-DATA-GRID
-3. TypeScript
-4. Vite
-5. Recharts
+2. Recharts
+3. MUI - X-DATA-GRID
+4. TypeScript
+5. Vite
 6. Redux Toolkit
 7. Redux Toolkit Query
-8. heroicons
+8. Hero Icons
 9. React Router
 
 ## Back End
