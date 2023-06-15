@@ -30,7 +30,7 @@ const monthSchema = new mongoose.Schema(
   { toJSON: { getters: true } }
 );
 
-const daySchema = new Schema(
+const daySchema = new mongoose.Schema(
   {
     date: String,
     revenue: {
