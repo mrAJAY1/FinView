@@ -33,5 +33,9 @@ mongoose
   })
   .then(async () => {
     app.listen(PORT, () => console.log(`Server Listening on port ${PORT}`));
+    // ADD DATA ONETIME ONLY OR AS NEEDED
+
+    // await mongoose.connection.db.dropDatabase();
+    // await KPI.insertMany(kpis);
   })
   .catch(error => console.log(`${error} did not connect`));
