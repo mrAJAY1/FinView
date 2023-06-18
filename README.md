@@ -17,4 +17,4 @@
 1. Node-JS
 2. Express-JS
 3. Mongoose
-4. Regression-JS (Integrating data analysis)
+4. Regression-JS (Integrating data analysis) 
