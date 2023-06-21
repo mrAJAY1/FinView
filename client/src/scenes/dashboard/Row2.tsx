@@ -178,7 +178,7 @@ const Row2 = () => {
               style={{ fontSize: "10px" }}
               tickFormatter={v => `$${v}`}
             />
-            <XAxis
+            <YAxis
               type="number"
               dataKey="expense"
               name="expense"
