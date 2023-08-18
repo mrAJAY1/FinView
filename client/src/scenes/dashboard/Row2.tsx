@@ -59,10 +59,6 @@ const Row2 = () => {
       }))
     );
   }, [productData]);
-  console.log(
-    "🚀 ~ productExpenseData ~ productExpenseData:",
-    productExpenseData
-  );
 
   return (
     <>

@@ -1,7 +1,8 @@
 import DashboardBox from "@/components/DashboardBox";
-import React from "react";
-
+import { useGetTransactionsQuery } from "@/state/api";
 const Row3 = () => {
+  const { data: transactionsData } = useGetTransactionsQuery();
+  console.log({ transactionsData });
   return (
     <>
       <DashboardBox gridArea="g"></DashboardBox>
