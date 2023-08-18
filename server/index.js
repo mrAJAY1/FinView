@@ -27,7 +27,7 @@ app.use(cors());
 // ROUTES
 app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
-app.use("/transactions", transactionRoutes);
+app.use("/transaction", transactionRoutes);
 
 const PORT = process.env.PORT || 6000;
 
