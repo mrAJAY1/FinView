@@ -1,6 +1,4 @@
 import DashboardBox from "@/components/DashboardBox";
-import React from "react";
-
 const Row3 = () => {
   return (
     <>
