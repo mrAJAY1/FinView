@@ -5,6 +5,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   // Defines the resolve configuration for Webpack module bundler to resolve modules.
+  base:'/',
   resolve: {
     // Aliases allow to create shortcuts to import or require certain modules easily.
     alias: [
