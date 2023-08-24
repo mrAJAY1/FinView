@@ -1,13 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Box, Typography, useTheme } from "@mui/material";
 import { Pix as PixIcon } from "@mui/icons-material";
 import FlexBetween from "@/components/FlexBetween";
-type Props = {};
 type NavLinkTypes = "dashboard" | "predictions";
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const { palette } = useTheme();
-  const [selected, setSelected] = useState<NavLinkTypes>("dashboard");
+  const location = useLocation();
+  const [selected, setSelected] = useState<NavLinkTypes>(
+    location.pathname === "/" ? "dashboard" : "predictions"
+  );
+
   return (
     <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[300]}>
       {/* LEFT SIDE */}
